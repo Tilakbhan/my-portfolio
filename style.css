@@ -7,10 +7,6 @@ body {
   color: #333;
   scroll-behavior: smooth;
 }
-
-/* ------------------------------
-   🧭 ナビゲーション
------------------------------- */
 nav {
   background-color: #2c3e50;
   padding: 10px 0;
@@ -44,10 +40,6 @@ nav ul li a:hover {
   color: #1abc9c;
   transform: scale(1.1);
 }
-
-/* ------------------------------
-   💻 ヒーローセクション（テクノロジー背景付き）
------------------------------- */
 #hero {
   display: flex;
   flex-direction: column;
@@ -55,7 +47,6 @@ nav ul li a:hover {
   text-align: center;
   padding: 100px 20px;
   background-image: url('https://images.squarespace-cdn.com/content/v1/5ecd0f858666115ae94ac78e/1600175815755-PSMCUTGPO7O4G4OOO7NW/Lake+Kawaguchi-2.jpg');
-  background-size: cover;');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -64,7 +55,6 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-/* 背景を暗くしてテキストを読みやすく */
 #hero::before {
   content: "";
   position: absolute;
@@ -118,10 +108,6 @@ nav ul li a:hover {
   background-color: #ecf0f1;
   transform: scale(1.05);
 }
-
-/* ------------------------------
-   📘 各セクション
------------------------------- */
 section {
   max-width: 800px;
   margin: 60px auto;
@@ -146,7 +132,6 @@ section h2 {
   padding-bottom: 5px;
 }
 
-/* リスト */
 ul {
   list-style-type: none;
   padding: 0;
@@ -179,10 +164,6 @@ footer {
   letter-spacing: 0.5px;
   margin-top: 50px;
 }
-
-/* ------------------------------
-   📱 レスポンシブ対応
------------------------------- */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -201,5 +182,3 @@ footer {
     padding: 25px;
   }
 }
-
-
